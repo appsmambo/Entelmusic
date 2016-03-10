@@ -1,0 +1,1837 @@
+@font-face {
+	font-family:'DINRegular';
+	src:url('../fonts/DINNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-Regular.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-Regular.woff') format('woff'),
+		url('../fonts/DINNextLTPro-Regular.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-Regular.svg#DINNextLTPro-Regular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'DINBold';
+	src:url('../fonts/DINNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-Bold.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-Bold.woff') format('woff'),
+		url('../fonts/DINNextLTPro-Bold.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-Bold.svg#DINNextLTPro-Bold') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'DINBoldItalic';
+	src:url('../fonts/DINNextLTPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-BoldItalic.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-BoldItalic.woff') format('woff'),
+		url('../fonts/DINNextLTPro-BoldItalic.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-BoldItalic.svg#DINNextLTPro-BoldItalic') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'DINHeavy';
+	src:url('../fonts/DINNextLTPro-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-Heavy.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-Heavy.woff') format('woff'),
+		url('../fonts/DINNextLTPro-Heavy.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-Heavy.svg#DINNextLTPro-Heavy') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'DINHeavyItalic';
+	src:url('../fonts/DINNextLTPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-HeavyItalic.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-HeavyItalic.woff') format('woff'),
+		url('../fonts/DINNextLTPro-HeavyItalic.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-HeavyItalic.svg#DINNextLTPro-HeavyItalic') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'DINLight';
+	src:url('../fonts/DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-Light.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-Light.woff') format('woff'),
+		url('../fonts/DINNextLTPro-Light.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-Light.svg#DINNextLTPro-Light') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'DINLightItalic';
+	src:url('../fonts/DINNextLTPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-LightItalic.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-LightItalic.woff') format('woff'),
+		url('../fonts/DINNextLTPro-LightItalic.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-LightItalic.svg#DINNextLTPro-LightItalic') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'DINMedium';
+	src:url('../fonts/DINNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-Medium.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-Medium.woff') format('woff'),
+		url('../fonts/DINNextLTPro-Medium.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-Medium.svg#DINNextLTPro-Medium') format('svg');
+	font-weight:normal;
+	font-style:normal
+}
+@font-face {
+	font-family:'DINMediumItalic';
+	src:url('../fonts/DINNextLTPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-MediumItalic.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-MediumItalic.woff') format('woff'),
+		url('../fonts/DINNextLTPro-MediumItalic.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-MediumItalic.svg#DINNextLTPro-MediumItalic') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'DINUltraLight';
+	src:url('../fonts/DINNextLTPro-UltraLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-UltraLight.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-UltraLight.woff') format('woff'),
+		url('../fonts/DINNextLTPro-UltraLight.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-UltraLight.svg#DINNextLTPro-UltraLight') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'DINUltraLightIt';
+	src:url('../fonts/DINNextLTPro-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINNextLTPro-UltraLightIt.otf') format('opentype'),
+		url('../fonts/DINNextLTPro-UltraLightIt.woff') format('woff'),
+		url('../fonts/DINNextLTPro-UltraLightIt.ttf') format('truetype'),
+		url('../fonts/DINNextLTPro-UltraLightIt.svg#DINNextLTPro-UltraLightIt') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+body {
+	background-color:#f2f2f2;
+	color:#737171;
+	font-family:'DINRegular';
+	font-size:14px
+}
+body.retos,
+body.retos2,
+body.ganadores {
+	background-image:none
+}
+
+strong {
+	font-family:'DINBold'
+}
+
+a:hover,
+a:focus {
+	color:inherit;
+	text-decoration:none
+}
+
+header,
+footer {
+	background-color:#0254a0;
+	background-image:url('../img/fondo.jpg');
+	background-position:center center;
+	height:122px
+}
+header {
+	height:122px;
+	overflow:hidden
+}
+footer {
+	height:auto;
+	margin-top:45px;
+	padding:25px 0 16px
+}
+body.como-ganar footer,
+body.retos footer,
+body.retos2 footer,
+body.ganadores footer {
+	margin-top:15px
+}
+footer small {
+	display:block;
+	font-family:'DINUltraLight';
+	font-size:10px;
+	line-height:12px;
+	margin-top:8px;
+	opacity:.65
+}
+footer p {
+	color:#fff;
+	font-size:12px;
+	line-height:16px;
+	margin-bottom:0
+}
+footer a {
+	color:#fff;
+	display:block;
+	margin-bottom:8px
+}
+
+header a.logo {
+	display:block;
+	margin-top:28px
+}
+
+.row.links {
+	height:62px;
+	-webkit-border-bottom-right-radius: 2px;
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-bottomright: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px
+}
+.row.links .sprite {
+	float:left
+}
+.row.links a {
+	color:#737171;
+	display:block;
+	font-family:'DINUltraLightIt';
+	font-size:20px;
+	height:24px;
+	line-height:24px;
+	margin-top:18px;
+	text-align:center;
+	background:none;
+	border: none;
+}
+.row.links a.link-como-ganar {
+	width:140px
+}
+.row.links a.link-ganadores {
+	width:115px
+}
+.row.links a span {
+	margin-right:5px
+}
+header p.sociales {
+	margin-top:16px
+}
+header p.sociales a {
+	display:inline-block;
+	float:left;
+	margin-right:7px
+}
+header p.sociales a:last-child {
+	float:right;
+	margin-right:5px
+}
+
+.row.menu .col-md-4 {
+	border-left:1px solid #fff
+}
+.row.menu {
+	border-right:1px solid #fff
+}
+.row.menu a {
+	color:#fff;
+	display:block;
+	font-family:'DINMediumItalic';
+	font-size:21px;
+	line-height:66px;
+	text-align:center
+}
+.row.menu a:hover {
+	
+}
+.row.menu a span {
+	color:#ff6702
+}
+
+.noticia {
+	width:100%
+}
+.noticia.disco {
+	background-image:url('../img/home/disco.png');
+	background-position:right center;
+	background-repeat:no-repeat
+}
+.noticia .texto {
+	height:281px
+}
+.noticia .texto div {
+	padding:0 14px 0 48px;
+	position:relative;
+	top:50%;
+	transform:translateY(-50%)
+}
+.noticia.doble .texto div,
+.noticia.no-imagen .texto div {
+	padding-left:14px
+}
+.noticia figure,
+.noticia .texto {
+	width:50%
+}
+.noticia .texto {
+	float:left
+}
+.noticia figure {
+	float:right
+}
+.noticia.no-imagen .texto,
+.noticia.no-imagen2 .texto,
+.noticia.mas-noticias .texto {
+	width:100%
+}
+.noticia.mas-noticias .texto div {
+	padding:0
+}
+.noticia .texto h2 {
+	color:#ff6702;
+	font-family:'DINLight';
+	font-size:40px;
+	line-height:40px;
+	margin-top:0
+}
+.noticia .texto h2.corona {
+	background-image:url('../img/home/corona.png');
+	background-position:92% 0;
+	background-repeat:no-repeat
+}
+.noticia .texto h2 span {
+	font-family:'DINHeavy';
+	font-size:50px;
+	text-transform:uppercase
+}
+.noticia .texto h2.cursiva {
+	font-family:'DINLightItalic'
+}
+.noticia .texto h2.cursiva span {
+	font-family:'DINHeavyItalic'
+}
+.noticia .texto h2.fuerte {
+	font-family:'DINHeavy';
+	font-size:50px;
+	margin-bottom:0;
+	max-width:400px;
+	text-transform:uppercase
+}
+.noticia .texto h2.fuerte span {
+	display:block;
+	font-family:'DINLight';
+	font-size:20px
+}
+.noticia .texto h2.lengua {
+	max-width:160px
+}
+.noticia .texto p {
+	line-height:18px;
+	max-width:251px
+}
+.noticia.no-imagen2 .texto p {
+	max-width:83%
+}
+.noticia.no-imagen2 .texto div {
+	padding-left:30px
+}
+.noticia.doble .texto p,
+.noticia.no-imagen .texto p {
+	max-width:438px
+}
+.ver-mas-s,
+.ver-mas-b {
+	display:block;
+	font-family:'DINUltraLightIt'
+}
+.ver-mas-s {
+	color:#7e7e7e
+}
+.ver-mas-b {
+	color:#ffffff;
+	font-size:37px
+}
+
+.noticia.coldplay figure {
+	float:left;
+	width:40%
+}
+.noticia.coldplay .texto {
+	float:right;
+	width:60%
+}
+.noticia.coldplay .texto p {
+	max-width:364px
+}
+.noticia.coldplay .texto div {
+	padding-left:40px
+}
+.texto .coldplay-igualdad {
+	margin-bottom:12px;
+	max-width:175px;
+	overflow:hidden
+}
+.texto .coldplay-viva-la-vida {
+	margin-bottom:15px;
+	overflow:hidden;
+	width:213px
+}
+.texto .coldplay-yellow {
+	overflow:hidden
+}
+
+.image-container {
+	overflow:hidden
+}
+.image-container img {
+	-moz-transition:all 800ms;
+	-o-transition:all 800ms;
+	-webkit-transition:all 800ms;
+	opacity:.9;
+	transition:all 800ms
+}
+.image-container:hover img {
+	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+	opacity:1
+}
+
+.leddisplay {
+	background:#1b1a1a;
+	padding-bottom:5px;
+	padding-top:5px
+}
+.leddisplay canvas {
+	display:block;
+	margin:0 6%;
+    width:90%
+}
+
+.titular {
+	background-image:url('../img/fondo-titular.png');
+	background-position:center center;
+	background-repeat:no-repeat;
+	color:#fff;
+	font-family:'DINHeavyItalic';
+	font-size:34px;
+	height:153px;
+	line-height:120px;
+	margin-top:0
+}
+
+.tweets {
+	height:700px;
+	margin-bottom:30px;
+	margin-top:20px;
+	padding:50px 30px
+}
+.tweets .tweet {
+	border-bottom:1px solid #d7d3d3;
+	margin-bottom:35px;
+	overflow:auto;
+	padding-bottom:10px
+}
+.tweet:last-child {
+	border-bottom:none
+}
+.tweet figure {
+	margin-bottom:25px;
+	margin-right:8px
+}
+.tweet p {
+	color:#727070;
+	margin-bottom:0
+}
+.tweet p.usuario {
+	font-size:16px
+}
+.tweet p.texto {
+	font-size:20px;
+	line-height:20px
+}
+.total-ganadores {
+	color:#0254a0;
+	font-family:'DINHeavy';
+	font-size:16px
+}
+.total-ganadores span {
+	color:#ff6702
+}
+.total-ganadores span.llave {
+	font-family:'DINRegular'
+}
+
+.como-ganar {
+	
+}
+.como-ganar h2 {
+	margin:0
+}
+.como-ganar .bloque {
+	height:167px;
+	position:relative
+}
+.como-ganar .final {
+	bottom:20px;
+	color:#fff;
+	font-family:'DINLight';
+	font-size:13px;
+	position:absolute;
+	width:100%
+}
+.como-ganar .final .texto {
+	padding-left:33px
+}
+.como-ganar .final .ver-detalles {
+	color:#fff;
+	font-family:'DINBoldItalic';
+	font-size:15px
+}
+.como-ganar .final .ver-detalles span {
+	background-color:#fff;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	display:inline-block;
+	font-family: 'DINUltraLight';
+	font-size:60px;
+	height:54px;
+	line-height:58px;
+	margin-left:4px;
+	text-align:center;
+	vertical-align:middle;
+	width:54px
+}
+.como-ganar .rolling-mania .final .ver-detalles span {
+	color:#e5c102
+}
+.como-ganar .mensaje {
+	background-image:url('../img/como-ganar/fondo.jpg');
+	border-bottom:7px solid #fff;
+	color:#fff;
+	font-family:'DINLightItalic';
+	font-size:30px;
+	padding-bottom:12px;
+	padding-top:23px
+}
+.como-ganar .mensaje h2 {
+	font-family:'DINHeavyItalic';
+	font-size:50px;
+	line-height:40px
+}
+.como-ganar .mensaje strong {
+	font-family:'DINBoldItalic';
+	font-size:18px
+}
+.como-ganar .mensaje span {
+	color:#ff6702
+}
+.como-ganar .mensaje p {
+	line-height:30px;
+	margin-top:16px
+}
+.como-ganar p {
+	color:#fff;
+	font-family:'DINUltraLight';
+	font-size:16px;
+	line-height:40px;
+	margin-bottom:0;
+	margin-top: 4px
+}
+.como-ganar p.con-borde {
+	border-bottom:7px solid #fff
+}
+.como-ganar p span {
+	font-family:'DINBoldItalic';
+	color:#ff6702
+}
+.como-ganar .rolling-mania,
+.como-ganar .retos-entel,
+.como-ganar .ultra-fan,
+.como-ganar .tribuna-entel {
+	background-position:top center;
+	border-bottom:7px solid #fff;
+	padding-top:6%
+}
+.como-ganar .rolling-mania,
+.ganadores .rolling-mania {
+	background-image:url('../img/como-ganar/rolling-mania.jpg')
+}
+.como-ganar .retos-entel,
+.ganadores .retos-entel {
+	background-image:url('../img/como-ganar/retos-entel.jpg');
+}
+.como-ganar .ultra-fan,
+.ganadores .ultra-fan {
+	background-image:url('../img/como-ganar/ultrafan.jpg');
+}
+.como-ganar .tribuna-entel,
+.ganadores .tribuna-entel {
+	background-image:url('../img/como-ganar/tribuna-entel.jpg');
+}
+.como-ganar .rolling-mania h2,
+.como-ganar .retos-entel h2,
+.como-ganar .ultra-fan h2,
+.como-ganar .tribuna-entel h2,
+.ganadores .bloque h2 {
+	color:#fff;
+	font-family:'DINHeavyItalic'
+}
+.como-ganar .rolling-mania h2,
+.como-ganar .retos-entel h2,
+.como-ganar .ultra-fan h2,
+.como-ganar .tribuna-entel h2,
+.ganadores .bloque h2 {
+	font-size:100px;
+	line-height:92px
+}
+.como-ganar .rolling-mania p,
+.como-ganar .retos-entel p,
+.como-ganar .ultra-fan p,
+.como-ganar .tribuna-entel p {
+	border-bottom:none;
+	color:#fff;
+	font-family:'DINLight';
+	max-width:648px
+}
+.como-ganar .rolling-mania p {
+	font-size:22px;
+	margin-bottom:15px
+}
+.como-ganar .retos-entel p,
+.como-ganar .ultra-fan p,
+.como-ganar .tribuna-entel p {
+	font-size:21px;
+	margin-bottom:35px
+}
+.como-ganar .rolling-mania p span,
+.como-ganar .retos-entel p span,
+.como-ganar .ultra-fan p span,
+.como-ganar .tribuna-entel p span {
+	color:#fff;
+	font-family:'DINBold';
+	text-transform:uppercase
+}
+.como-ganar .rolling-mania p span {
+	font-size:24px
+}
+.como-ganar .retos-entel p span,
+.como-ganar .ultra-fan p span,
+.como-ganar .tribuna-entel p span {
+	font-size:22px
+}
+.como-ganar .rolling-mania .opciones {
+	background-color:rgba(195,165,14,.65);
+	-webkit-border-radius:14px;
+	-moz-border-radius:14px;
+	border-radius:14px;
+	color:#fff;
+	font-family:'DINMediumItalic';
+	font-size:22px;
+	max-width:910px;
+	padding:20px 22px
+}
+.como-ganar .rolling-mania .opciones strong {
+	font-family:'DINBold';
+	font-size:24px;
+	text-transform:uppercase
+}
+
+section.retos {
+	background-image:url('../img/retos/flor.png'),url('../img/retos/fondo.png');
+	background-repeat:no-repeat,repeat
+}
+section.retos.lengua-gris {
+	background-image:url('../img/retos/flor-gris.png'),url('../img/retos/fondo.png');
+}
+.retos h2 {
+	color:#fff;
+	margin-bottom:0px
+}
+.retos .bloque {
+	padding-bottom:120px;
+	padding-top:60px
+}
+.cuestionario h2 {
+	font-family:'DINLight';
+	font-size:36px
+}
+.cuestionario h2 span,
+.cuestionario .pregunta span,
+.formulario h2 span,
+.respuesta-ok h2 span,
+.respuesta-no-ok h2 span,
+.respuesta-ok p span,
+.respuesta-no-ok p span,
+.ya-registro h2 span,
+.ya-ganaste h2 span {
+	color:#ff6702
+}
+.ya-ganaste h2 a {
+	color:#ff6702
+}
+.cuestionario .pregunta {
+	color:#fff;
+	font-family:'DINLightItalic';
+	font-size:28px;
+	margin-bottom:40px
+}
+.cuestionario .pregunta strong {
+	font-family:'DINMediumItalic'
+}
+.cuestionario .pregunta a {
+	color:#fff;
+	text-decoration:underline
+}
+.cuestionario label {
+	color:#fff;
+	cursor:pointer;
+	font-size:20px
+}
+.cuestionario .opciones {
+	margin-bottom:40px
+}
+.cuestionario .enviar,
+.formulario .terminar {
+	background-color:#ff6702;
+	border:none;
+	color:#fff;
+	font-family:'DINMediumItalic';
+	font-size:26px;
+	line-height:36px;
+	padding:5px 26px 0
+}
+.cuestionario #marca-respuesta,
+.formulario #alerta {
+	color:#fff;
+	font-family:'DINLightItalic';
+	font-size:22px
+}
+.formulario h2 {
+	font-family:'DINLightItalic';
+	font-size:48px
+}
+.formulario h2 strong {
+	font-family:'DINMediumItalic'
+}
+.formulario .form-control {
+	color:#191919
+}
+.formulario .control-label {
+	color:#ff6702;
+	font-size:18px;
+	text-align:left
+}
+.formulario .con-borde {
+	border:none;
+	border-right:9px solid #8b8b8b
+}
+.formulario .tyc {
+	color:#fff;
+	font-size:15px;
+	line-height:29px
+}
+.formulario .tyc a {
+	color:#ff6702
+}
+.formulario .terminar {
+	
+}
+.validetta-error .form-control {
+	border-color:red
+}
+.respuesta-ok h2,
+.respuesta-no-ok h2,
+.ya-registro h2,
+.ya-ganaste h2 {
+	font-family:'DINLightItalic';
+	font-size:38px;
+	margin-bottom:20px
+}
+.respuesta-ok h2 strong,
+.respuesta-no-ok h2 strong,
+.ya-registro h2 strong,
+.ya-ganaste h2 strong {
+	font-family:'DINBoldItalic';
+	font-size:60px
+}
+.respuesta-ok h2 small,
+.respuesta-no-ok h2 small,
+.ya-registro h2 small,
+.ya-ganaste h2 small {
+	color:#fff;
+	font-size:34px
+}
+.respuesta-ok p {
+	color:#fff;
+	font-family:'DINLightItalic';
+	font-size:22px
+}
+.fondo-formulario,
+.fondo-respuesta-correcta,
+.fondo-respuesta-incorrecta,
+.fondo-ya-participaste {
+	background-position:bottom center;
+	background-repeat:no-repeat
+}
+.fondo-formulario {
+	background-image:url('../img/retos/fondo-formulario.png')
+}
+.fondo-respuesta-correcta {
+	background-image:url('../img/retos/fondo-respuesta-correcta.png')
+}
+.fondo-respuesta-incorrecta {
+	background-image:url('../img/retos/fondo-respuesta-incorrecta.png')
+}
+.fondo-ya-participaste {
+	background-image:url('../img/retos/fondo-ya-participaste.png')
+}
+
+.ganadores {
+	
+}
+.ganadores .bloque {
+	margin-bottom:7px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:48px;
+	padding-top:48px;
+	position:relative
+}
+.ganadores .bloque .boton {
+	background-color:#fff;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	bottom:25px;
+	display:inline-block;
+	font-family:'DINUltraLight';
+	font-size:60px;
+	height:54px;
+	line-height:58px;
+	position:absolute;
+	right:20px;
+	text-align:center;
+	vertical-align:middle;
+	width:54px;
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Chrome, Safari, Opera */
+	transform:rotate(-90deg);
+	z-index:999
+}
+.ganadores .bloque.rolling-mania .boton {
+	color:#ecce0c
+}
+.ganadores .bloque.retos-entel .boton {
+	color:#17d6ee
+}
+.ganadores .bloque.ultra-fan .boton {
+	color:#f54248
+}
+.ganadores .bloque.tribuna-entel .boton {
+	color:#fc33d9
+}
+.ganadores .bloque.abierto .boton {
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Chrome, Safari, Opera */
+	transform:rotate(90deg)
+}
+.ganadores .bloque.rolling-mania.cerrado,
+.ganadores .bloque.retos-entel.cerrado,
+.ganadores .bloque.ultra-fan.cerrado,
+.ganadores .bloque.tribuna-entel.cerrado {
+	background-image:none
+}
+.ganadores .bloque.rolling-mania.cerrado {
+	background-color:#edd000
+}
+.ganadores .bloque.retos-entel.cerrado {
+	background-color:#17d7ee
+}
+.ganadores .bloque.ultra-fan.cerrado {
+	background-color:#f54248
+}
+.ganadores .bloque.tribuna-entel.cerrado {
+	background-color:#fc33d9
+}
+.ganadores .bloque h2 {
+	font-size:85px;
+	line-height:80px;
+	margin:0
+}
+.ganadores .bloque small {
+	color:#fff;
+	display:block;
+	font-family:'DINLight';
+	font-size:21px
+}
+.ganadores .listado {
+	background:rgba(255, 255, 255, .7);
+	width:90%
+}
+.ganadores .listado p {
+	color:#727070;
+	font-size:21px;
+	margin-bottom:0;
+	padding:35px 18px;
+	text-transform:capitalize
+}
+.ganadores .listado p span {
+	text-transform:initial
+}
+.ganadores .resultados {
+	margin-bottom:65px;
+	margin-top:65px
+}
+.ganadores .buscador label {
+	color:#fff;
+	font-family:'DINLight';
+	font-size:20px
+}
+.ganadores .resultados .calendario {
+	list-style:none;
+	margin:0;
+	padding:0
+}
+.ganadores .calendario li {
+	background-color:#fff;
+	cursor:pointer;
+	display:inline-block;
+	font-size:24px;
+	height:51px;
+	line-height:20px;
+	margin:8px 10px;
+	padding-top:8px;
+	text-align:center;
+	-webkit-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+	width:51px
+}
+.ganadores .calendario li span {
+	display:block;
+	font-family:'DINLight';
+	font-size:16px
+}
+.ganadores .calendario li:hover,
+.ganadores .calendario li.active {
+	background-color:#383835;
+	color:#f4f4f4
+}
+.ganadores .calendario li.active {
+	cursor:default
+}
+.ganadores .calendario li.off {
+	cursor:initial;
+	opacity:.75
+}
+.ganadores .calendario li.off:hover {
+	background-color:#fff;
+	color:#737171
+}
+.calendarioModificado li,
+.calendarioModificado.calendario-mobile li {
+	display:block!important;
+	float:left;
+	height:auto!important;
+	max-height:none!important;
+	max-width:none!important;
+	padding:12px!important;
+	width:auto!important
+}
+.ganadores .calendario-mobile {
+	background-color:rgba(255, 255, 255, .6)
+}
+.ganadores .calendario-mobile li {
+	font-size:16px;
+	line-height:14px;
+	margin:2px;
+    min-height:25px;
+    min-width:25px;
+    max-height:40px;
+	max-width:40px
+}
+.ganadores .calendario-mobile li span {
+	font-size:13px
+}
+p.atc {
+	color:#fff;
+	font-size:16px;
+	margin:20px 5px 0;
+	max-width:480px
+}
+.elige-la-fecha {
+	background-color:#383835;
+	background-image:url('../img/iconos/triangulo.png');
+	background-position:96% 50%;
+	background-repeat:no-repeat;
+	color:#fff;
+	display:block;
+	font-size:18px;
+	line-height:58px;
+	max-height:60px;
+	padding-left:11px;
+	padding-top:4px
+}
+.elige-la-fecha:hover,
+.elige-la-fecha:focus {
+	color:#fff
+}
+
+.contenedor {
+	margin-bottom:15px
+}
+.blanco {
+	background-color:#fff
+}
+.negro {
+	background-color:#000
+}
+.gris {
+	background-color:#d7d3d3
+}
+
+.styledRadio {
+	float:left;
+	margin-right:5px
+}
+.styledCheckbox {
+	float:right;
+	margin-left:5px
+}
+
+.sprite-ver-mas-s,
+.sprite-ver-mas-b,
+.sprite-hashtag,
+.sprite-instagram,
+.sprite-hashtag-mobile,
+.sprite-instagram-mobile {
+	display:inline-block!important;
+	vertical-align:text-bottom
+}
+.sprite-hashtag-mobile {
+	vertical-align:sub
+}
+.sprite-igualdad {
+	display:inline-block!important;
+	float:right
+}
+
+/* mediaquerys */
+@media (min-width:480px) {
+	.total-ganadores {
+		font-size:26px
+	}
+}
+@media (min-width:768px) {
+	.total-ganadores {
+		font-size:36px
+	}
+}
+@media (max-width:479px) {
+	.noticia .texto h2.corona {
+		background-image:none
+	}
+	.cuestionario h2 {
+		font-size:22px!important
+	}
+	.titular {
+		background-image:url('../img/fondo-titular-mobile.png');
+		font-size:24px;
+		height:70px;
+		line-height:52px
+	}
+	.ganadores .listado p {
+		font-size:14px
+	}
+	p.atc {
+		font-size:13px;
+		line-height:15px
+	}
+	.formulario #alerta {
+		font-size:19px
+	}
+}
+@media (max-width:767px) {
+	figure,
+	.texto {
+		height:auto!important;
+		width:100%!important
+	}
+	.texto {
+		margin-top:25px;
+	}
+	.noticia .texto div {
+		padding-left:30px;
+		top:inherit;
+		transform:none
+	}
+	.noticia .texto p {
+		max-width:inherit
+	}
+	.mas-noticias .texto {
+		margin-bottom:25px
+	}
+	.como-ganar .rolling-mania h2,
+	.como-ganar .retos-entel h2,
+	.como-ganar .ultra-fan h2,
+	.como-ganar .tribuna-entel h2 {
+		font-size:45px;
+		line-height:48px
+	}
+	.ganadores .bloque {
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:18px;
+		padding-top:18px
+	}
+	.ganadores .bloque h2 {
+		font-size:30px;
+		line-height:30px
+	}
+	.ganadores .bloque .boton {
+		bottom:8px;
+		font-size:26px;
+		height:24px;
+		line-height:26px;
+		right:12px;
+		width:24px
+	}
+	.ganadores .resultados {
+		margin-bottom:20px;
+		margin-top:20px
+	}
+	.ganadores .listado p {
+		font-size:16px
+	}
+}
+@media (max-width:991px) {
+	header {
+		height:69px;
+		overflow:visible
+	}
+	section.retos {
+		background-image:url('../img/retos/fondo.jpg')!important;
+		background-repeat:repeat
+	}
+	.retos .bloque {
+		padding-bottom:40px;
+		padding-top:30px
+	}
+	section.retos div.container {
+		padding-left:0;
+		padding-right:0
+	}
+	.cuestionario h2 {
+		font-size:27px
+	}
+	.cuestionario .pregunta {
+		font-size:21px;
+		margin-bottom:20px
+	}
+	.formulario h2 {
+		font-size:36px
+	}
+	.cuestionario .opciones {
+		margin-bottom:20px
+	}
+	.respuesta-ok h2,
+	.respuesta-no-ok h2,
+	.ya-registro h2,
+	.ya-ganaste h2 {
+		font-size:29px
+	}
+	.respuesta-ok h2 strong,
+	.respuesta-no-ok h2 strong,
+	.ya-registro h2 strong,
+	.ya-ganaste h2 strong {
+		font-size:35px
+	}
+	.respuesta-ok h2 small,
+	.respuesta-no-ok h2 small,
+	.ya-registro h2 small,
+	.ya-ganaste h2 small {
+		font-size:26px
+	}
+	.respuesta-ok p {
+		font-size:18px
+	}
+	.ganadores .listado {
+		width:100%
+	}
+}
+@media (min-width:1600px) {
+	body {
+		background-image:url('../img/asterisco.png');
+		background-position:right 30%;
+		background-repeat:no-repeat
+	}
+	section.retos {
+		background-position:95% 20%, center center;
+	}
+}
+@media (min-width:768px) and (max-width:991px) {
+	.noticia .texto {
+		height:269px
+	}
+}
+@media (min-width:992px) and (max-width:1199px) {
+	.noticia .texto {
+		height:231px
+	}
+	.noticia .texto div {
+		padding:0 14px 0 24px
+	}
+	.noticia.doble .texto div,
+	.noticia.no-imagen .texto div {
+		padding:0 14px
+	}
+	section.retos {
+		background-position:135% 10%, center center;
+	}
+}
+@media (min-width:1200px) and (max-width:1599px) {
+	section.retos {
+		background-position:115% 10%, center center;
+	}
+}
+
+
+.no-gutter > [class*='col-'] {
+	padding-right:0;
+	padding-left:0
+}
+
+/* http://spritegen.website-performance.org/ */
+
+.sprite {
+	background-image:url('../img/spritesheet.png');
+	background-repeat:no-repeat;
+	display:block
+}
+
+.sprite-como-ganar {
+    width: 19px;
+    height: 23px;
+    background-position: -1px -1px;
+}
+
+.sprite-ganadores {
+    width: 23px;
+    height: 23px;
+    background-position: -22px -1px;
+}
+
+.sprite-hashtag {
+    width: 51px;
+    height: 51px;
+    background-position: -47px -1px;
+}
+
+.sprite-hashtag-mobile {
+    width: 26px;
+    height: 26px;
+    background-position: -100px -1px;
+}
+
+.sprite-instagram {
+    width: 51px;
+    height: 51px;
+    background-position: -1px -54px;
+}
+
+.sprite-instagram-mobile {
+    width: 26px;
+    height: 26px;
+    background-position: -100px -29px;
+}
+
+.sprite-lg {
+    width: 60px;
+    height: 27px;
+    background-position: -54px -57px;
+}
+
+.sprite-social-facebook {
+    width: 30px;
+    height: 29px;
+    background-position: -54px -86px;
+}
+
+.sprite-social-instagram {
+    width: 30px;
+    height: 29px;
+    background-position: -86px -86px;
+}
+
+.sprite-social-twitter {
+    width: 30px;
+    height: 29px;
+    background-position: -128px -1px;
+}
+
+.sprite-triangulo {
+    width: 25px;
+    height: 15px;
+    background-position: -1px -32px;
+}
+
+.sprite-ver-mas-b {
+    width: 57px;
+    height: 57px;
+    background-position: -160px -1px;
+}
+
+.sprite-ver-mas-s {
+    width: 20px;
+    height: 20px;
+    background-position: -116px -60px;
+}
+
+
+
+
+/*alex*/
+.como-ganar .retos-entel .final .ver-detalles span {
+	color:#0289a7
+}
+.como-ganar .ultra-fan .final .ver-detalles span {
+	color:#f54248
+}
+.como-ganar .tribuna-entel .final .ver-detalles span {
+	color:#d60ca0
+}
+.listas-music-opciones {
+	color: #fff;
+	font-family:'DINLight';
+	font-size: 22px;
+	line-height: 15px;
+	width: 60%;
+	margin-left: 33%;
+}	
+.listas-music-opciones span.numero-music{
+	color: #038ba9;
+	font-size: 40px;
+	font-family:'DINHeavy';
+	display: inline-block;
+	background: #fff;
+	line-height: 55px;
+	height: 48px;
+	width: 48px;
+	border-radius: 30px;
+	margin-right: 8px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+.listas-music-opciones span.music-span, .listas-music-opciones a.music-span{
+	text-transform: uppercase;
+	font-size: 23px;
+	font-family:'DINBold';
+}
+.listas-music-opciones a.music-span.underline{
+	text-decoration: underline;
+	color: #fff;
+}
+.ultra-fan .listas-music-opciones span.numero-music{
+	color: #ed5049;
+}
+.tribuna-entel .listas-music-opciones span.numero-music{
+	color: #e01db2;
+}
+.terminos-rolling{
+	background:url('../img/retos/fondo.jpg');
+	width: 100%;
+	padding: 30px 0;
+}
+.terminos-music{
+	color: #fff;
+	padding-top: 55px;
+}
+.terminos-music h3{
+	font-size: 70px;
+	line-height: 60px;
+	font-family:'DINHeavyItalic';
+	text-align: right;
+	text-transform: uppercase;
+}
+.lengua-stick{
+	height: 400px;
+	font-size: 22px;
+	font-family:'DINLight';
+}
+.lengua-stick .mCSB_scrollTools{
+	right: auto;
+	left: 0;
+}
+.lengua-stick p{
+	margin-bottom: 15px;
+}
+.lengua-stick .mCSB_inside>.mCSB_container{
+	margin-right: 0;
+	margin-left: 30px;
+}
+.lengua-stick .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width: 15px;
+	opacity: 1;
+	background: #ff2700;
+	border-radius: 0;
+}
+.lengua-stick .mCSB_draggerRail{
+	width: 15px;
+	opacity: 1;
+	background: #fff;
+	border-radius: 0;
+}
+.bloque-height{
+	margin: 0;
+}
+.bloque-height .col-xs-12{
+	position: relative;
+}
+.panel-mostrado h2{
+	font-size: 70px !important;
+}
+.content-boton .ver-detalles{
+	background-color: #fff;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    border-radius: 27px;
+    display: inline-block;
+    font-family:'DINUltraLight';
+    font-size: 60px;
+    height: 54px;
+    line-height: 60px;
+    margin-left: 4px;
+    text-align: center;
+    vertical-align: middle;
+    width: 54px;
+    color: #f0cf05;
+}
+.retos-entel .content-boton .ver-detalles{
+    color: #0289a7;
+}
+.ultra-fan .content-boton .ver-detalles{
+    color: #f54248;
+}
+.tribuna-entel .content-boton .ver-detalles{
+    color: #d60ca0;
+}
+.como-ganar .bloque{
+	padding: 0 !important;
+}
+.como-ganar .bloque.active-height-bloque {
+	height:791px !important;
+	margin-bottom:0;
+	padding-top:5% !important
+}
+
+/*.como-ganar .bloque.active-height-bloque{
+	height: 685px !important;
+	padding-top: 5% !important;
+}
+.como-ganar .rolling-mania.bloque.active-height-bloque{
+	height: 1300px !important;
+}
+.col-xs-12.active-height-bloque-dos{
+	height: 630px !important;
+}
+.rolling-mania .col-xs-12.active-height-bloque-dos{
+	height: 1240px !important;
+}*/
+.oculto{
+	display: none !important;
+}
+.btn-acordeon{
+	cursor: pointer;
+}
+.panel-mostrado{
+	padding-top: 30px;
+}
+.rolling-mania .panel-mostrado{
+	background: #edd000;
+	height: 160px;
+}
+.retos-entel .panel-mostrado{
+	background: #17d7ee;
+	height: 160px;
+}
+.ultra-fan .panel-mostrado{
+	background: #f54248;
+	height: 160px;
+}
+.tribuna-entel .panel-mostrado{
+	background: #fc33d9;
+	height: 160px;
+}
+.panel-mostrado h2{
+	padding-left: 35px;
+}
+.panel-mostrado .content-boton{
+	padding-right: 30px;
+	color: #fff;
+	font-size: 15px;
+	font-family:'DINBoldItalic';
+	text-transform: uppercase;
+	margin-top: 65px;
+}
+.panel-mostrado .content-boton span{
+	background-color: #fff;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    border-radius: 27px;
+    display: inline-block;
+    font-family: 'DINUltraLight';
+    font-size: 60px;
+    height: 54px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    width: 54px;
+    color: #f0cf05;
+    margin-left: 25px;
+}
+.retos-entel .panel-mostrado .content-boton span{
+	color: #17d7ee;
+}
+.ultra-fan .panel-mostrado .content-boton span{
+	color: #f54248;
+}
+.tribuna-entel .panel-mostrado .content-boton span{
+	color: #fc33d9;
+}
+.bloque-height .col-xs-12{
+	padding: 0;
+}
+/*.como-ganar .mensaje{
+	height: 200px;
+	max-height: 200px;
+	padding-top: 23px;
+	margin-bottom: 7px;
+}
+.como-ganar p{
+	margin-top: 4px;
+	line-height: 40px;
+}*/
+.como-ganar .tribuna-entel p{
+	margin-bottom: 25px;
+}
+.panel-oculto h3{
+	color: #fff;
+	font-size: 42px;
+	line-height: 42px;
+	font-family:'DINBoldItalic';
+	margin: 40px 0 0 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+.comprando-samsung{
+	color: #fff;
+	font-size: 18px;
+	font-family:'DINMediumItalic';
+	margin-top: 40px;
+	max-width: 800px;
+}
+.premios-entradas{
+	color: #fff;
+	font-size: 19px;
+	font-family:'DINMediumItalic';
+	max-width: 810px;
+	background-color: rgba(195,165,14,.65);
+	margin-top: 35px;
+	border-radius: 7px;
+	padding: 17px 43px;
+}
+.cabinas-entel{
+	color: #fff;
+	font-size: 32px;
+	font-family:'DINMediumItalic';
+	margin-top: 20px;
+	line-height: 35px;
+}
+.cabinas-entel span{
+	font-size: 42px;
+}
+.opciones-samsung{
+	background-color: rgba(195,165,14,.65);
+	border-radius: 7px;
+    width: 180px;
+    padding: 10px 0 0 12px;
+    height: 115px;
+}
+.numero-entel-smasung{
+	font-size: 130px;
+    float: left;
+    line-height: 115px;
+    font-family:'DINHeavyItalic';
+}
+.sube-cabina-entel{
+	float: right;
+    width: 80px;
+    margin-right: 5px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.flecha-samsung{
+	font-size: 70px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.premios-entradas h4{
+	font-size: 80px;
+	margin: 4px 0 0 0;
+	padding: 0 0;
+	font-family:'DINBoldItalic';
+}
+.premios-entradas ul{
+	margin: 0 0 0 55px;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+@media  (max-width:1199px) {
+	.lengua-stick {
+		height:285px;
+	}
+}
+@media  (max-width:991px) {
+	/*.como-ganar .rolling-mania h2, .como-ganar .retos-entel h2, .como-ganar .ultra-fan h2, .como-ganar .tribuna-entel h2{
+		font-size: 110px;
+		line-height: 100px;
+	}*/
+	.panel-mostrado h2 {
+	    font-size: 60px !important;
+	}
+	.panel-mostrado .content-boton span{
+		margin-left: 10px;
+	}
+}
+@media  (max-width:767px) {
+	.panel-oculto{
+		display: block !important;
+	}
+	.como-ganar .bloque {
+		height: auto;
+		padding-top: 9% !important;
+	}
+	.como-ganar .final{
+		position: inherit;
+		padding-bottom: 20px;
+		padding-top: 10px;
+	}
+	.row.final .col-lg-10 span{
+		display: none;
+	}
+	.rolling-mania .row.final .col-lg-2, .retos-entel .row.final .col-lg-2{
+		margin-top: 30px;
+	}
+	.como-ganar .bloque .col-xs-12{
+		/*height: 700px !important;*/
+	}
+	.como-ganar .bloque .final {
+		display:block!important
+	}
+	.como-ganar .final .ver-detalles{
+		/*width: 75%;*/
+	}
+	.como-ganar p{
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 8px !important;
+	}
+	.como-ganar p span{
+		font-size: 21px !important;
+	}
+	.texto.col-xs-9 {
+	    width: 75%!important;
+	    margin-top: 13px;
+	}
+	.container.como-ganar{
+		/*padding: 0;*/
+	}
+	.tribuna-entel  .listas-music-opciones, .ultra-fan  .listas-music-opciones{
+		width: 83%;
+		margin: 0 auto;
+		line-height: 25px;
+	}
+	.retos-entel  .listas-music-opciones{
+		width: 60%;
+		margin: 0 auto;
+		line-height: 25px;
+	}
+	.panel-oculto h3 {
+	    font-size: 20px;
+	    line-height: 25px;
+	    margin: 20px 0 0 0;
+	    padding: 0 5px;
+	}
+	.comprando-samsung {
+	    color: #fff;
+	    font-size: 11px;
+	    margin-top: 20px;
+	    width: 95% !important;
+	    padding: 0 0;
+	}
+	.opciones-samsung {
+	    width: 31%;
+	    padding: 0px 0 0 5px;
+	    height: 90px;
+	    margin-right: 3%;
+	}
+	.opciones-samsung:last-child{
+		margin-right: 0;
+	}
+	.numero-entel-smasung {
+	    font-size: 41px;
+	    line-height: 92px;
+	}
+	.flecha-samsung{
+		display: none !important;
+	}
+	.sube-cabina-entel {
+	    width: 55px;
+	    margin-top: 18px;
+	    line-height: 18px;
+	}
+	.premios-entradas {
+	    font-size: 15px;
+	    margin-top: 17px;
+	    padding: 5px 43px;
+	    width: 90% !important;
+	}
+	.premios-entradas h4 {
+	    font-size: 35px;
+	    margin: 4px 0 0 0;
+	    padding: 0 0;
+	    float: none !important;
+	}
+	.premios-entradas ul {
+		margin: 0;
+	    float: none !important;
+	}
+	.cabinas-entel {
+	    font-size: 23px;
+	    margin-top: 20px;
+	    line-height: 25px;
+	}
+	.cabinas-entel span {
+	    font-size: 30px;
+	}
+	.rolling-mania .final{
+		font-size: 12px;
+	}
+}
+@media  (max-width:625px) {
+	.como-ganar .rolling-mania .opciones{
+		font-size: 19px;
+	}
+	.como-ganar .rolling-mania .opciones strong{
+		font-size: 20px;
+	}
+	/*.como-ganar .rolling-mania h2, .como-ganar .retos-entel h2, .como-ganar .ultra-fan h2, .como-ganar .tribuna-entel h2{
+		font-size: 90px;
+		line-height: 95px;
+	}*/
+}
+@media  (max-width:550px) {
+	.listas-music-opciones{
+		width: 96% !important;
+		margin: 0 auto;
+		font-size: 13px;
+
+	}
+	.listas-music-opciones span.numero-music{
+		margin-bottom: 6px;
+	}
+	span.numero-music {
+		font-size: 22px!important;
+		width: 32px!important;
+		height: 32px!important;
+		line-height: 37px!important;
+	}
+	.listas-music-opciones span.music-span, .listas-music-opciones a.music-span{
+		font-size: 14px;
+	}
+	.como-ganar .mensaje {
+	    padding-top: 16px;
+	    margin-bottom: 7px;
+	    line-height: 20px;
+		height: auto;
+		padding-bottom: 5px
+	}
+	.como-ganar .mensaje h2{
+		font-size: 30px;
+		height: auto;
+	}
+	.como-ganar .mensaje strong{
+		font-size: 13px;
+	}
+}
+@media  (max-width:499px) {
+	.como-ganar .rolling-mania .opciones{
+		font-size: 16px;
+	}
+	.como-ganar .rolling-mania .opciones strong{
+		font-size: 17px;
+	}
+	.como-ganar p{
+		font-size: 17px !important;
+		line-height: 24px !important;
+		margin-bottom: 8px !important;
+	}
+	.como-ganar p span{
+		font-size: 18px !important;
+	}
+	/*.como-ganar .rolling-mania h2, .como-ganar .retos-entel h2, .como-ganar .ultra-fan h2, .como-ganar .tribuna-entel h2{
+		font-size: 70px;
+		line-height: 75px;
+	}*/
+}
+@media  (max-width:415px) {
+	/*.como-ganar .rolling-mania h2, .como-ganar .retos-entel h2, .como-ganar .ultra-fan h2, .como-ganar .tribuna-entel h2{
+		font-size: 45px;
+		line-height: 48px;
+	}*/
+	.como-ganar p{
+		font-size: 14px !important;
+		line-height: 20px !important;
+		margin-bottom: 8px !important;
+	}
+	.como-ganar p span{
+		font-size: 14px !important;
+	}
+	.como-ganar .final .texto{
+		margin-top: 15px;
+	}
+	.como-ganar .final .ver-detalles{
+		font-size: 13px;
+	}
+	.row.final .col-lg-2{
+		margin-top: 40px;
+		/*width: 85px;
+		border: 0;
+		padding: 0;*/
+	}
+	.como-ganar .final .ver-detalles{
+		/*width: auto;*/
+	}
+}
+@media  (max-width:386px) {
+/*	.como-ganar .final{
+		position: inherit;
+	}
+	.row.final .col-lg-10{
+		width: 100% !important;
+		float: none;
+	}
+	.row.final .col-lg-2{
+		margin: 10px auto;
+		width: 130px;
+		float: none;
+	}
+	.row.final .col-lg-2 a{
+		float: none !important;
+		display: block;
+	}*/
+	.row.final .col-lg-2 span{
+		/*margin:5px auto;
+		display: block;*/
+	}	
+}

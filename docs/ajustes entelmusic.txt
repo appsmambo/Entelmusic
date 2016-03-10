@@ -1,0 +1,27 @@
+HOME
+
+*marquesina en home -> PRONTO GANADORES TODOS LOS DIAS
+*alinear icono de como ganar
+*cambiar icono de instagram del header
+*actualizar sprites
+*franja naranja twitter e instagram
+*en footer, los legales bajar tamaño mas peke y en light
+*ajustar el logo mobile
+*legales en footer para mobile
+*menu con gif equalizador
+*franjas naranjas para mobile
+revisar marquesina en mobile
+autoplay en instagram
+
+
+
+COMO GANAR
+
+revisar las animaciones
+
+
+
+RETOS
+
+*en mobile, ajustar la pantalla del cuestionario, para que se vea el boton, revisar las demas
+
